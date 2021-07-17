@@ -7,22 +7,20 @@ This is the first website I ever built. At the time, I had just finished learnin
 -  [Overview](#overview)
    -  [The challenge](#the-challenge)
    -  [Screenshot](#screenshot)
-   -  [Links](#links)
 -  [My process](#my-process)
    -  [Built with](#built-with)
    -  [What I learned](#what-i-learned)
    -  [Continued development](#continued-development)
    -  [Useful resources](#useful-resources)
 -  [Author](#author)
--  [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### The challenge
 
-I wanted to put all my basic skills together to build a project. I decided I was going to make a clone of [Etsy](https://www.etsy.com/). The idea was for me to try to clone the site with a touch of my own designs and content.
+I wanted to put all my basic skills together to build a project. I decided I was going to make a clone of [Etsy](https://www.etsy.com/). The idea was for me to try to clone the site with a touch of my own design and content.
 
-I started working on the project on _30th November 2020_. I was on and off the project for the rest of _December_, but I'm glad I set aside some time and finished working on it on _9th January 2021_. I honestly believe that if I had abandoned the project, I wouldn't have started down this web development path.
+I started working on the project on _30th November 2020_. I was on and off the project for the rest of _December_, but I'm glad I set aside some time and finished working on it on _9th January 2021_. I honestly believe that if I had abandoned the project then, I wouldn't have started down this web development path.
 
 ### Screenshot
 
@@ -34,7 +32,7 @@ What's in view:
 
 -  At the top:
 
-   -  a title icon I made for the page
+   -  a custom title icon I made for the page
    -  another custom logo I designed for the _Homepage_
    -  the first search bar I ever coded
    -  also, the first navigation bar I ever coded. At the time, I didn't even know to call it a navigation bar
@@ -62,7 +60,7 @@ Screenshot of the center of the page.
 
 What's in view:
 
--  A section that features the month's top choices of parts for bulding a computer. I remember this section like it was just yesterday. I can never forget the headaches I got when trying to figure out they layout for this section.
+-  A section that features the month's top choices of parts for bulding a computer. This section is quite memorable. I can never forget the headaches I got while trying to figure out the layout for this section.
 
 ---
 
@@ -73,11 +71,11 @@ Screenshot of the bottom of the page
 What's in view:
 
 -  At the top:
-   -  More information about the site.
+   -  More information about the site
 -  At the center:
    -  Support links
 -  At the bottom:
-   -  Links to external pages and below that (not shown in the screenshot) is a footer
+   -  Links to external pages and below that, not shown in the screenshot,s is a footer
 
 ---
 
@@ -97,7 +95,18 @@ Screenshot of a general overview of the homepage.
 
 What's in view:
 
--  This is an actual screenshot of the site in the design file.
+-  This is a screenshot of how the site looks on desktops.
+
+---
+
+![](./markdown_images/7.png)
+![](./markdown_images/8.png)
+![](./markdown_images/9.png)
+![](./markdown_images/10.png)
+![](./markdown_images/11.png)
+![](./markdown_images/12.png)
+
+Screenshots of the site in mobile view.
 
 ---
 
@@ -119,53 +128,60 @@ What's in view:
 
 -  Overall, this project gave me a chance to combine everything I knew at the time about **HTML** and **CSS**, into something beautiful.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Here are some code snippets of code that made me feel like I could achieve anything:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Code to make the first set of images rounded
 
 ```css
-.proud-of-this-css {
-   color: papayawhip;
+.circled-pics {
+   border-radius: 50%;
+   overflow: hidden;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-   console.log("🎉");
-};
+Code to make the social icons have a fixed position and a simple transition effect on hover.
+
+```css
+.icons {
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+   position: fixed;
+   z-index: 100;
+}
+.icons ul li:hover {
+   padding-left: 20px;
+   width: 50px;
+   transition: 0.6s;
+}
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+This code is part of the code that handles the cool hover effects in the peripherals section.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```css
+.container .box:hover .details {
+   transform: scaleY(1);
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+It feels like ages since I built this project. Since then, I've been able to learn a lot more about HTML, CSS, JavaScript, and other web technologies too.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'll preserve this project as it is to remind me of where I started and the far that I've come on my self taught journey.
+
+I plan to make a **remastered** version of the site using my current skills. The newer site will have working external pages, better UI and UX, and I might even make the project consume an external API by making it an e-commerce website.
+
+I'll link the newer version here when it's done.
 
 ### Useful resources
 
--  [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--  [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+-  [Inkscape](https://inkscape.org) - Inkscape SVG Editor. This project is where I first started leveraging the power of Inkscape. My skills using the editor have greatly improved since then, thus making it my go-to design tool for designing web projects.
 
 ## Author
 
--  Website - [Add your name here](https://www.your-site.com)
--  Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--  Twitter - [@yourusername](https://www.twitter.com/yourusername)
+-  Github - [@AllanKirui](https://www.github.com/AllanKirui)
+-  Frontend Mentor - [@AllanKirui](https://www.frontendmentor.io/profile/AllanKirui)
+-  Instagram - [@nallawilljr](https://www.instagram.com/nallawilljr)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+[Back to top](#nallatronics-landing-page)
